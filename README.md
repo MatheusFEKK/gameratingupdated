@@ -1,1 +1,1 @@
-# gameratingupdated
+# gamesratings

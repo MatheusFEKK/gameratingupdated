@@ -1,0 +1,117 @@
+.container {
+    display: flex 1;
+    margin-top: 36px;
+}
+
+@font-face {
+    font-family: farceb;
+    src: url(/fonts/FARCEB__.TTF);
+}
+
+header {
+    text-align: center;
+    font-family: farceb;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+h3 {
+    color: white;
+    font-family: farceb;
+    margin-top: 40px;
+    margin-left: -230px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: -230px;
+}
+
+.navbar-brand {
+    margin-left: 60px;
+}
+
+iframe {
+    position: absolute;
+    margin-left: 970px;
+}
+
+#h3game {
+    text-align: right;
+    margin-top: -450px;
+}
+
+.container2 {
+    display: flex 2;
+    margin-left: 82px;
+    margin-top: 500px;
+}
+
+#h1enredo {
+    position: absolute;
+    color: white;
+    font-family: farceb;
+    text-align: left;
+}
+
+#penredo {
+    position: absolute;
+    margin-left: 00px;
+}
+
+#platforms {
+    color: white;
+    font-family: farceb;
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: -490px;
+}
+
+#steam {
+    width: 25px;
+    margin-left: 1200px;
+}
+
+#ubisoft {
+    width: 25px;
+}
+
+#xbox {
+    width: 25px;
+    margin-left: -90px;
+}
+
+#playstation {
+    width: 25px;
+    margin-left: -58px;
+}
+
+body {
+    background-repeat: no-repeat;
+    backdrop-filter: blur(9px);
+    background-image: url(/img/farcry3bck.jpg);
+}
+
+#icon {
+    position: absolute;
+    width: 40px;
+    margin-top: -5px;
+    margin-left: -240px;
+    text-align: left;
+
+}
+
+.navbar {
+    border-radius: 500px;
+}
+
+.nav-link:hover {
+    transform: translateY(-5px);
+}
+
+.nav-link {
+    font-weight: bolder;
+    transition: transform 0.3s;
+}

@@ -1,0 +1,110 @@
+.container {
+    display: flex 1;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+body {
+    background-image: url(/img/crysis.webp);
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20px);
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+footer {
+    color: white;
+    text-align: right;
+    margin-top: 200px;
+    margin-right: -580px;
+}
+
+.navbar-brand {
+    margin-left:60px;
+}
+
+.row {
+    position: relative;
+    margin-top: 40px;
+    color: white;
+}
+
+#titulo {
+    font-family:sans-serif;
+    font-size: 40px;
+}
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#imgprincip {
+    width: 8%;
+}
+
+#farcry3 {
+    width: 389%;
+}
+
+
+#alien {
+    width: 385%;
+    height: 93%;
+}
+
+.nav-link {
+    font-weight: bolder;
+    transition: transform 0.3s;
+}
+.nav-link:hover {
+    transform: translateY(-5px);
+    
+}
+
+.navbar {
+    border-radius: 500px;
+}
+
+#icon {
+    position: absolute;
+    margin-left: -240px;
+    margin-top: -5px;
+    text-align: left;
+    width: 40px;
+}
+
+.col-md-1 {
+    margin-left: 300px;
+
+    transition: transform 0.3s;
+}
+.col-md-1:hover {
+    transform: translateY(10px);
+
+}
+
+.col-md-2 {
+    transition: transform 0.3s;
+}
+
+.col-md-2:hover {
+    transform: translateY(10px);
+}
+
+.col-lg-1 {
+    transition: transform 0.3s;
+}
+
+.col-lg-1:hover {
+    transform: translateY(10px);
+}
+
+a {
+    display: inline-block;
+    text-align: var(bo2);
+}

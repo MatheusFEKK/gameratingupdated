@@ -1,0 +1,71 @@
+.container {    
+    display: flex 1;
+    width: 100%;
+    backdrop-filter: blur(8px);
+}
+
+@font-face {
+    font-family: bo2;
+    src: url(/fonts/Black\ Ops\ 2\ Font.ttf);
+}
+
+#icon {
+    position: absolute;
+    width: 40px;
+    margin-left: -240px;
+    margin-top: -5px;
+    text-align: left;
+}
+
+.nav-link:hover {
+    transform: translateY(-5px);
+}
+
+.nav-link {
+    font-weight: bolder;
+    transition: transform 0.3s;
+}
+
+
+.navbar {
+    border-radius: 500px;
+}
+
+.navbar-brand {
+    margin-left: 60px;
+}
+
+body {
+    background-image: url(/img/blackops.jpg);
+    background-repeat: no-repeat;
+}
+
+.header {
+    color: orange;
+    font-family: bo2;
+    font-size: 25px;
+    filter: brightness(40%);
+    text-align: center;
+    margin-top: 5%;
+}
+
+.left-content {
+    white-space: nowrap;
+    font-family: bo2;
+    color: white;
+    padding: 25px;
+    margin-right: 100%;
+    margin-left: -270px;
+    font-size: 8px;
+    
+    
+}
+
+#h2left {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    filter: brightness(30%);
+}
+
