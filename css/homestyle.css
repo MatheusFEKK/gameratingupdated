@@ -58,12 +58,15 @@ h1 {
 }
 
 .nav-link {
-    font-weight: bolder;
     transition: transform 0.3s;
 }
 .nav-link:hover {
     transform: translateY(-5px);
     
+}
+
+.nav-item {
+    font-weight: bolder;
 }
 
 .navbar {

@@ -22,10 +22,12 @@
 }
 
 .nav-link {
-    font-weight: bolder;
     transition: transform 0.3s;
 }
 
+.nav-item {
+    font-weight: bolder;
+}
 
 .navbar {
     border-radius: 500px;
