@@ -30,6 +30,7 @@ p {
 }
 
 .navbar-brand {
+    color: black;
     margin-left: 60px;
 }
 
@@ -103,15 +104,12 @@ body {
 
 }
 
-.navbar {
-    border-radius: 500px;
-}
-
 .nav-link:hover {
     transform: translateY(-5px);
 }
 
 .nav-link {
+    color: black;
     transition: transform 0.3s;
 }
 

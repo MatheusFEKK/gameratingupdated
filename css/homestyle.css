@@ -25,6 +25,7 @@ footer {
 }
 
 .navbar-brand {
+    color: black;
     margin-left:60px;
 }
 
@@ -54,10 +55,11 @@ h1 {
 
 #alien {
     width: 385%;
-    height: 93%;
+    height: 414px;
 }
 
 .nav-link {
+    color: black;
     transition: transform 0.3s;
 }
 .nav-link:hover {
@@ -70,7 +72,7 @@ h1 {
 }
 
 .navbar {
-    border-radius: 500px;
+    color: black;
 }
 
 #icon {
