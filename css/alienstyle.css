@@ -1,5 +1,6 @@
 .container {
     display: flex 1;
+    width: 100%;
 }
 
 #icon {
@@ -9,8 +10,19 @@
     margin-top: -5px;
     text-align: left;
 }
+
+header {
+    color: green;
+    font-family: alien;
+    text-align: center;
+    
+}
+
+@font-face {
+    font-family: alien;
+    src: url(/fonts/Sevastopol-Interface.ttf);
+}
 body {
-    display: flex 1;
     background-image: url(/img/alienbackground.jpg);
     backdrop-filter: blur(8px);
 }
@@ -34,5 +46,7 @@ body {
 
 aside {
     text-align: right;
-    margin-top: 50px;
+    margin-top: 125px;
+    margin-right: -230px;
 }
+
