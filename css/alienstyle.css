@@ -12,10 +12,10 @@
 }
 
 header {
-    color: green;
+    color: white;
     font-family: alien;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 @font-face {
