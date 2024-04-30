@@ -92,7 +92,7 @@ iframe {
 body {
     background-repeat: no-repeat;
     backdrop-filter: blur(9px);
-    background-image: url(/img/farcry3bck.jpg);
+    background-image: url(img/farcry3bck.jpg);
 }
 
 #icon {
