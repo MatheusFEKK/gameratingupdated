@@ -20,10 +20,10 @@ header {
 
 @font-face {
     font-family: alien;
-    src: url(/fonts/Sevastopol-Interface.ttf);
+    src: url(../fonts/Sevastopol-Interface.ttf);
 }
 body {
-    background-image: url(/img/alienbackground.jpg);
+    background-image: url(../img/alienbackground.jpg);
     backdrop-filter: blur(8px);
 }
 

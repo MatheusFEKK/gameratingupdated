@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: farceb;
-    src: url(/fonts/FARCEB__.TTF);
+    src: url(../fonts/FARCEB__.TTF);
 }
 
 header {
@@ -92,7 +92,7 @@ iframe {
 body {
     background-repeat: no-repeat;
     backdrop-filter: blur(9px);
-    background-image: url(/img/farcry3bck.jpg);
+    background-image: url(../img/farcry3bck.jpg);
 }
 
 #icon {

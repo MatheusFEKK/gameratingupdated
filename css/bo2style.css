@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: bo2;
-    src: url(/fonts/Black\ Ops\ 2\ Font.ttf);
+    src: url(../fonts/Black\ Ops\ 2\ Font.ttf);
 }
 
 #icon {
@@ -38,7 +38,7 @@
 }
 
 body {
-    background-image: url(/img/blackops.jpg);
+    background-image: url(../img/blackops.jpg);
     background-repeat: no-repeat;
 }
 
