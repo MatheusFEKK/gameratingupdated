@@ -1,61 +1,19 @@
 .container {
-    display: flex 1;
     margin: 30px;
     margin-top: 50px;
 }
 
 body {
+    width: 1900px;
+    height: 920px;
     background-image: url(../img/crysis.webp);
     background-repeat: no-repeat;
     backdrop-filter: blur(20px);
 }
 
-a {
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    text-wrap: nowrap;
-}
-
-footer {
-    color: white;
-    text-align: right;
-    margin-top: 345px;
-    margin-right: -560px;
-}
-
 .navbar-brand {
     color: black;
     margin-left:60px;
-}
-
-.row {
-    position: relative;
-    margin-top: 40px;
-    color: white;
-}
-
-#titulo {
-    font-family:sans-serif;
-    font-size: 40px;
-}
-h1 {
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#imgprincip {
-    width: 8%;
-}
-
-#farcry3 {
-    width: 389%;
-}
-
-
-#alien {
-    width: 385%;
-    height: 414px;
 }
 
 .nav-link {
@@ -71,45 +29,59 @@ h1 {
     font-weight: bolder;
 }
 
-.navbar {
-    color: black;
-}
-
 #icon {
-    position: absolute;
-    margin-left: -240px;
-    margin-top: -5px;
-    text-align: left;
+    position: relative;
+    left: -20px;
+    top: -5px;
+    float: left;
     width: 40px;
 }
 
-.col-md-1 {
-    margin-left: 300px;
-
-    transition: transform 0.3s;
+.row {
+    width: 1150px;
+    height: 352px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0,3s;
 }
-.col-md-1:hover {
+
+.col1 {
+    width: 283px;
+    height: 352px;
+    transition: transform 0.3s;
+    background-image: url(../img/farcry3.jpg);
+    background-repeat: no-repeat;
+}
+
+.col1:hover {
     transform: translateY(10px);
 
 }
 
-.col-md-2 {
+.col2 {
+    width: 283px;
+    height: 352px;
     transition: transform 0.3s;
+    background-image: url(../img/Black_ops_2_cover.jpg);
+    background-repeat: no-repeat;
 }
 
-.col-md-2:hover {
+.col2 > h3 {
+    color: white;
+}
+
+.col2:hover {
     transform: translateY(10px);
 }
 
-.col-lg-1 {
+.col3 {
+    width: 283px;
+    height: 352px;
+    background-image: url(../img/Alien_Isolation.webp);
     transition: transform 0.3s;
 }
 
-.col-lg-1:hover {
+.col3:hover {
     transform: translateY(10px);
-}
-
-a {
-    display: inline-block;
-    text-align: var(bo2);
 }
