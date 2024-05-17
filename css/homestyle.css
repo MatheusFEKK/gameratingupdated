@@ -1,4 +1,5 @@
 body {
+    height: 920px;
     background-image: url(../img/crysis.webp);
     backdrop-filter: blur(15px);
     background-repeat: no-repeat;
