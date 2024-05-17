@@ -2,8 +2,8 @@ body {
     width: 1900px;
     height: 920px;
     background-image: url(../img/crysis.webp);
+    backdrop-filter: blur(15px);
     background-repeat: no-repeat;
-    backdrop-filter: blur(20px);
 }
 
 .navbar-brand {
@@ -32,45 +32,10 @@ body {
     width: 40px;
 }
 
-.row {
-    width: 1150px;
-    height: 352px;
-    background-color: black;
-    transition: transform 0,3s;
-}
-
-.col1 {
-    width: 283px;
-    height: 352px;
-    transition: transform 0.3s;
- 
-}
-
-.col1:hover {
+.games {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
     transform: translateY(10px);
-
-}
-
-.col2 {
-    width: 283px;
-    height: 352px;
-    transition: transform 0.3s;
-}
-
-.col2 > h3 {
-    color: white;
-}
-
-.col2:hover {
-    transform: translateY(10px);
-}
-
-.col3 {
-    width: 283px;
-    height: 352px;
-    transition: transform 0.3s;
-}
-
-.col3:hover {
-    transform: translateY(10px);
+    column-gap: 30vh;
 }
