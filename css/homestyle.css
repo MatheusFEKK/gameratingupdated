@@ -1,6 +1,4 @@
 body {
-    width: 1900px;
-    height: 920px;
     background-image: url(../img/crysis.webp);
     backdrop-filter: blur(15px);
     background-repeat: no-repeat;
@@ -14,15 +12,12 @@ body {
 .nav-link {
     color: black;
     transition: transform 0.3s;
+    font-weight: bolder;
 }
 
 .nav-link:hover {
     transform: translateY(-5px);
     
-}
-
-.nav-item {
-    font-weight: bolder;
 }
 
 #icon {
