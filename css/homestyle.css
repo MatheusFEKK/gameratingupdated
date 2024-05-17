@@ -15,6 +15,7 @@ body {
     color: black;
     transition: transform 0.3s;
 }
+
 .nav-link:hover {
     transform: translateY(-5px);
     
@@ -36,6 +37,19 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 15vh;
-    transform: translateY(10px);
     column-gap: 30vh;
+}
+
+.games , h4 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.col-md-2 {
+    transition: transform 0.3s;
+}
+
+.col-md-2:hover {
+    transform: translateY(10px);
 }
