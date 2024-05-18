@@ -6,11 +6,10 @@
     text-align: left;
 }
 
-header {
+.header {
     color: white;
     font-family: alien;
     text-align: center;
-    margin-top: 40px;
 }
 
 @font-face {
@@ -20,7 +19,7 @@ header {
 body {
     height: 919px;
     background-image: url(../img/alienbackground.jpg);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(5px);
 }
 
 .navbar-brand {
@@ -34,4 +33,10 @@ body {
 
 .nav-link:hover {
     transform: translateY(-5px);
+}
+
+.content aside {
+    float: right;
+    margin-top: 10vh;
+    margin-right: 10vh;
 }
