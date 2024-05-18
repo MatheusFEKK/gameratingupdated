@@ -1,31 +1,26 @@
+.container {
+    display: flex 1;
+    margin-top: 36px;
+}
+
 @font-face {
     font-family: farceb;
     src: url(../fonts/FARCEB__.TTF);
 }
 
-#icon {
-    position: relative;
-    left: -1vw;
-    top: -0.2vw;
-    float: left;
-    width: 2vw;
-}
-
-.navbar-brand {
-    color: black;
-    margin-left: 3vh;
-}
-
-.header {
+header {
     text-align: center;
     font-family: farceb;
     color: white;
     font-size: 45px;
+    font-weight: bolder;
 }
 
-aside {
+h3 {
     color: white;
     font-family: farceb;
+    margin-top: 40px;
+    margin-left: -230px;
 }
 
 p {
@@ -34,42 +29,90 @@ p {
     margin-left: -230px;
 }
 
-.right-content {
-    position: relative;
-    bottom: 15vh;
-    right: 15vh;
-    width: 15vw;
-    font-family: farceb;
+.navbar-brand {
+    color: black;
+    margin-left: 60px;
+}
+
+iframe {
+    position: absolute;
+    margin-left: 970px;
+}
+
+#h3game {
+    text-align: right;
+    margin-top: -450px;
+}
+
+.container2 {
+    display: flex 2;
+    margin-left: 82px;
+    margin-top: 500px;
+}
+
+#h1enredo {
+    position: absolute;
     color: white;
-    float: right;
+    font-family: farceb;
+    text-align: left;
 }
 
-section {
-    margin-bottom: 2vh;
+#penredo {
+    position: absolute;
+    margin-left: 00px;
 }
 
-img {
-    width: 3vh;
+#platforms {
+    color: white;
+    font-family: farceb;
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: -490px;
 }
 
-a:link {
-    text-decoration: none;
+#steam {
+    width: 25px;
+    margin-left: 1200px;
+}
+
+#ubisoft {
+    width: 25px;
+}
+
+#xbox {
+    width: 25px;
+    margin-left: -90px;
+}
+
+#playstation {
+    width: 25px;
+    margin-left: -58px;
 }
 
 body {
-    height: 919px;
     background-repeat: no-repeat;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(9px);
     background-image: url(../img/farcry3bck.jpg);
 }
 
+#icon {
+    position: absolute;
+    width: 40px;
+    margin-top: -5px;
+    margin-left: -240px;
+    text-align: left;
 
-.nav-link {
-    color: black;
-    transition: transform 0.3s;
-    font-weight: bolder;
 }
 
 .nav-link:hover {
     transform: translateY(-5px);
+}
+
+.nav-link {
+    color: black;
+    transition: transform 0.3s;
+}
+
+.nav-item {
+    font-weight: bolder
 }

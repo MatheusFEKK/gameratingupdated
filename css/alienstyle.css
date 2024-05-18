@@ -1,15 +1,21 @@
-#icon {
-    position: relative;
-    left: -1vw;
-    top: -0.2vw;
-    float: left;
-    width: 2vw;
+.container {
+    display: flex 1;
+    width: 100%;
 }
 
-.header {
+#icon {
+    position: absolute;
+    width: 40px;
+    margin-left: -240px;
+    margin-top: -5px;
+    text-align: left;
+}
+
+header {
     color: white;
     font-family: alien;
     text-align: center;
+    margin-top: 40px;
 }
 
 @font-face {
@@ -17,26 +23,34 @@
     src: url(../fonts/Sevastopol-Interface.ttf);
 }
 body {
-    height: 919px;
     background-image: url(../img/alienbackground.jpg);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
 }
 
 .navbar-brand {
-    margin-left: 3vh;
+    margin-left: 60px;
 }
 
 .nav-link {
-    transition: transform 0.3s;
-    font-weight: bolder;
-}
-
-.nav-link:hover {
+    margin-top: 10px;
     transform: translateY(-5px);
 }
 
-.content aside {
-    float: right;
-    margin-top: 10vh;
-    margin-right: 10vh;
+.nav-link:hover {
+    transition: transform 0.3s;
+}
+
+.nav-item {
+    font-weight: bolder;
+}
+
+aside {
+    text-align: right;
+    margin-top: 125px;
+    margin-right: -230px;
+}
+
+iframe {
+    position: relative;
+    margin-top: -120px;
 }
