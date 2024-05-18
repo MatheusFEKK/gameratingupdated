@@ -1,9 +1,9 @@
 #icon {
-    position: absolute;
-    width: 40px;
-    margin-left: -240px;
-    margin-top: -5px;
-    text-align: left;
+    position: relative;
+    left: -1vw;
+    top: -0.2vw;
+    float: left;
+    width: 2vw;
 }
 
 .header {
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-brand {
-    margin-left: 60px;
+    margin-left: 3vh;
 }
 
 .nav-link {
